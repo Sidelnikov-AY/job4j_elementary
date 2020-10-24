@@ -30,7 +30,7 @@ public class PointTest {
     }
 
     @Test
-    public void when00to11then141() {
+    public void when00to11then1dot41() {
         double expected = 1.41;
         int x1 = 0;
         int y1 = 0;
@@ -41,7 +41,7 @@ public class PointTest {
     }
 
     @Test
-    public void whenminus3minus1to11then141() {
+    public void whenminus3minus1to11then4dot47() {
         double expected = 4.47;
         int x1 = -3;
         int y1 =  -1;
