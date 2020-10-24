@@ -2,11 +2,14 @@ package ru.job4j.condition;
 
 public class SqArea {
     public static double square(int p, int k) {
-        return k * Math.pow((p / (2 * (k + 1))), 2);
+        int h = p / (2 * (k + 1));
+        int l = h * k;
+        int s = l * h;
+        return s;
     }
 
     public static void main(String[] args) {
-        double result1 = ru.job4j.calculator.SqArea.square(6, 2);
+        double result1 = SqArea.square(6, 2);
         System.out.println(" p = 6, k = 2, s = 2, real = " + result1);
     }
 }
