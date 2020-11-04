@@ -5,7 +5,6 @@ public class PointEq {
         boolean eqX = x1 == x2;
         boolean eqY = y1 == y2;
         return eqX && eqY;
-
     }
 
     public static void main(String[] args) {

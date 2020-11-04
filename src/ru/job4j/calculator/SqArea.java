@@ -3,7 +3,6 @@ package ru.job4j.calculator;
 public class SqArea {
     public static double square(int p, int k) {
         return k * Math.pow((p / (2 * (k + 1))), 2);
-
     }
 
     public static void main(String[] args) {

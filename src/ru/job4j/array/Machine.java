@@ -9,7 +9,6 @@ public class Machine {
         int[] rsl = new int[100];
         int size = 0;
         int moneyChange = money - price;
-
             for (int index = 0; index < COINS.length; index++) {
                 while (moneyChange > 0 && moneyChange - COINS[index] >= 0) {
                     moneyChange -= COINS[index];
