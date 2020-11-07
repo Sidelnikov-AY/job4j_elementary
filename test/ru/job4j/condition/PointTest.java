@@ -9,10 +9,10 @@ import static org.junit.Assert.*;
 public class PointTest {
 
     @Test
-    public void when000to020then2() {
+    public void when000to050then5() {
         Point a = new Point(0, 0, 0);
-        Point b = new Point(0, 3, 0);
+        Point b = new Point(0, 5, 0);
         double rsl = a.distance(b);
-        assertThat(rsl, closeTo(2, 001));
+        assertThat(rsl, closeTo(5, 001));
     }
 }
